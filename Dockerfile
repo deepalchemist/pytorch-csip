@@ -1,5 +1,3 @@
-#docker run -it --rm --gpus=all pengchuanzhang/pytorch:ubuntu20.04_torch1.9-cuda11.3-nccl2.9.9 /bin/bash
-
 FROM pengchuanzhang/pytorch:ubuntu20.04_torch1.9-cuda11.3-nccl2.9.9
 
 RUN apt-get update 
